@@ -4,6 +4,7 @@ import sys
 
 
 def hello(thing):
+    """Say hello to the thing."""
     print "Hello {}".format(thing)
 
 
@@ -12,5 +13,5 @@ def goodbye(thing):
 
 
 if __name__ == "__main__":
-    hello()
-    goodbye()
+    user_thing = sys.argv[-1]
+    sys.exit(hello(user_thing))
