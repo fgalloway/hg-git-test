@@ -5,8 +5,12 @@ import sys
 
 def hello(thing):
     print "Hello {}".format(thing)
-    return
+
+
+def goodbye(thing):
+    print "Goodbye {}".format(thing)
 
 
 if __name__ == "__main__":
-    sys.exit(hello())
+    hello()
+    goodbye()
