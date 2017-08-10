@@ -4,6 +4,7 @@ import sys
 
 
 def hello(thing):
+    """Say hello to the thing."""
     print "Hello {}".format(thing)
     return
 
