@@ -9,4 +9,5 @@ def hello(thing):
 
 
 if __name__ == "__main__":
-    sys.exit(hello())
+    user_thing = sys.argv[-1]
+    sys.exit(hello(user_thing))
